@@ -111,27 +111,27 @@ npm start
 2. 프로젝트 구조
 ```
 ├── backend
-│   └── bin						# 실행 가능한 파일 모음
-|				└──	www				# Express 서버 실행 파일
-│   └── data					# mock 데이터 json 파일 모음
-│   └── node_modules	# npm 으로 설치된 서드파티 라이브러리 모음
-│   └── public				# 서버에서 사용하는 정적 리소스 파일 모음. frontend 폴더에서 build 실행시 이쪽으로 떨어짐
-│   └── routes				# 사용자가 접속한 URL 처리
-│   └── views					# 사용 안함
-│   └── app.js				# 미들웨어 연결. routes에서 추가한 파일 연결 필요
-│   └── package.json	# 프로젝트 정보 정의, 의존 패키지 버전 정보 명시 파일
+│   └── bin           # 실행 가능한 파일 모음
+|       └── www       # Express 서버 실행 파일
+│   └── data          # mock 데이터 json 파일 모음
+│   └── node_modules  # npm 으로 설치된 서드파티 라이브러리 모음
+│   └── public        # 서버에서 사용하는 정적 리소스 파일 모음. frontend 폴더에서 build 실행시 이쪽으로 떨어짐
+│   └── routes        # 사용자가 접속한 URL 처리
+│   └── views         # 사용 안함
+│   └── app.js        # 미들웨어 연결. routes에서 추가한 파일 연결 필요
+│   └── package.json  # 프로젝트 정보 정의, 의존 패키지 버전 정보 명시 파일
 ├── frontend
-│   └── build					# webpack 빌드 관련 설정 파일 모음
-│   └── config				# 프로젝트에서 사용되는 설정 파일 모음
-│   └── dist					# 배포 버전의 Vue 어플리케이션 파일이 모여 있는곳. 현재 사용 안함. backend/public 밑으로 이전
-│   └── node_modules 	# npm 으로 설치된 서드파티 라이브러리 모음
-│   └── src						# 실제 작업해야 하는 소스 코드 모음
-│   		└── assets			# 어플리케이션에서 사용하는 이미지, 동영상 등을 모음
-│   		└── components	# Vue 컴포넌트 모음
-│       └── router			# Vue Router 설정
-│   		└── App.vue			# 최상위 컴포넌트
-│   		└── main.js		 	# 가장 먼저 실행되는 javascript 파일. Vue 인스턴스 생성
+│   └── build         # webpack 빌드 관련 설정 파일 모음
+│   └── config        # 프로젝트에서 사용되는 설정 파일 모음
+│   └── dist          # 배포 버전의 Vue 어플리케이션 파일이 모여 있는곳. 현재 사용 안함. backend/public 밑으로 이전
+│   └── node_modules  # npm 으로 설치된 서드파티 라이브러리 모음
+│   └── src           # 실제 작업해야 하는 소스 코드 모음
+│       └── assets      # 어플리케이션에서 사용하는 이미지, 동영상 등을 모음
+│       └── components  # Vue 컴포넌트 모음
+│       └── router      # Vue Router 설정
+│       └── App.vue     # 최상위 컴포넌트
+│       └── main.js     # 가장 먼저 실행되는 javascript 파일. Vue 인스턴스 생성
 |   └── static
-|		└── index.html		# 어플리케이션 최상위 html 파일
-|		└── package.json	# 프로젝트 정보 정의, 의존 패키지 버전 정보 명시 파일
+|   └── index.html    # 어플리케이션 최상위 html 파일
+|   └── package.jso   # 프로젝트 정보 정의, 의존 패키지 버전 정보 명시 파일
 ```
