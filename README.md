@@ -44,5 +44,40 @@
 ## Node.js
 
 - [환경 설정](https://kimvampa.tistory.com/101)
+- [개발 환경에 대한 이해](https://jeonghwan-kim.github.io/series/2019/12/10/frontend-dev-env-webpack-basic.html)
 
+
+---
+
+프로젝트 초기 셋팅 방법
+
+```
+git clone https://github.com/ComTalk/toy-community.git
+
+npm init -y
+
+npm install -g vue-cli
+
+vue-init webpack frontend
+# Install vue-router? (Y/n)  ==> y
+# Use ESLint to lint your code? (Y/n) ==> y
+# Set up unit tests (Y/n) ==> n
+# Setup e2e tests with Nightwatch? (Y/n) ==> n
+
+cd frontend
+npm install
+
+##### Front End Setting End #####
+
+cd ..
+npm install -d express-generator
+
+cd backend
+npm install
+
+```
+
+---
+
+프로젝트 구조 설명 및 실행 방법
 
