@@ -109,7 +109,7 @@ npm start
 ```
 
 2. 프로젝트 구조
-
+```
 ├── backend
 │   └── bin						# 실행 가능한 파일 모음
 |				└──	www				# Express 서버 실행 파일
@@ -134,4 +134,4 @@ npm start
 |   └── static
 |		└── index.html		# 어플리케이션 최상위 html 파일
 |		└── package.json	# 프로젝트 정보 정의, 의존 패키지 버전 정보 명시 파일
-
+```
